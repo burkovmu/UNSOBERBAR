@@ -1,0 +1,436 @@
+[
+  {
+    "id": "1741940623084",
+    "name": "Для кошек",
+    "items": [
+      {
+        "id": "1741946564149",
+        "name": "Вискас",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T10:02:44.149Z",
+        "slug": "новое-блюдо",
+        "price": "380 руб",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1741946584199",
+        "name": "Шеба",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-14T10:03:04.199Z",
+        "slug": "новое-блюдо",
+        "price": "800 р.",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1741943866159",
+        "name": "Корм кош",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-14T09:17:46.159Z",
+        "slug": "новое-блюдо",
+        "price": "550",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1741953226615",
+        "name": "Шеба (копия)",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-14T11:53:46.615Z",
+        "slug": "шеба-копия",
+        "price": "800 р.",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1741949684652",
+        "name": "Влажные корма",
+        "isSubcategory": true,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-14T10:54:44.652Z",
+        "slug": "новая-подкатегория",
+        "items": [
+          {
+            "id": "1741949729946",
+            "name": "Индейка",
+            "isSubcategory": false,
+            "order": 0,
+            "isVisible": true,
+            "lastModified": "2025-03-14T10:55:29.946Z",
+            "slug": "новое-блюдо",
+            "price": "39 р.",
+            "description": "",
+            "image": "",
+            "weight": "",
+            "nutrition": {
+              "calories": 0,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1741951215602",
+            "name": "Новое блюдо 33",
+            "isSubcategory": false,
+            "order": 0,
+            "isVisible": true,
+            "lastModified": "2025-03-14T11:20:15.602Z",
+            "slug": "новое-блюдо",
+            "price": "",
+            "description": "",
+            "image": "",
+            "weight": "",
+            "nutrition": {
+              "calories": 0,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1741952100369",
+            "name": "Кролик",
+            "isSubcategory": false,
+            "order": 0,
+            "isVisible": true,
+            "lastModified": "2025-03-14T11:35:00.369Z",
+            "slug": "новое-блюдо",
+            "price": "",
+            "description": "",
+            "image": "",
+            "weight": "",
+            "nutrition": {
+              "calories": 0,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1741952326468",
+            "name": "Еще влажнее",
+            "isSubcategory": true,
+            "order": 3,
+            "isVisible": true,
+            "lastModified": "2025-03-14T11:38:46.468Z",
+            "slug": "новая-подкатегория",
+            "items": [
+              {
+                "id": "1741953000652",
+                "name": "Вода",
+                "isSubcategory": false,
+                "order": 0,
+                "isVisible": true,
+                "lastModified": "2025-03-14T11:50:00.652Z",
+                "slug": "новое-блюдо",
+                "price": "200 р.",
+                "description": "",
+                "image": "",
+                "weight": "",
+                "nutrition": {
+                  "calories": 0,
+                  "protein": 0,
+                  "fats": 0,
+                  "carbs": 0
+                }
+              }
+            ],
+            "nutrition": {
+              "calories": 0,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          }
+        ],
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 0,
+    "isVisible": true,
+    "lastModified": "2025-03-14T08:23:43.084Z",
+    "slug": "новая-категория"
+  },
+  {
+    "id": "1741941353886",
+    "name": "Магазин",
+    "items": [
+      {
+        "id": "1741952623495",
+        "name": "колбаса",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T11:43:43.495Z",
+        "slug": "новое-блюдо",
+        "price": "50",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 1,
+    "isVisible": true,
+    "lastModified": "2025-03-14T08:35:53.886Z",
+    "slug": "новая-категория"
+  },
+  {
+    "id": "1741943166995",
+    "name": "Салаты",
+    "items": [
+      {
+        "id": "1741953273213",
+        "name": "Оливье",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T11:54:33.213Z",
+        "slug": "новое-блюдо",
+        "price": "770",
+        "description": "АОРоватыль",
+        "image": "/uploads/1741953300293.webp",
+        "weight": "300 гр",
+        "nutrition": {
+          "calories": 300,
+          "protein": 20,
+          "fats": 30,
+          "carbs": 40
+        }
+      },
+      {
+        "id": "1741943630204",
+        "name": "вавыаыв",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-14T09:13:50.204Z",
+        "slug": "новое-блюдо",
+        "price": "",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1741943664107",
+        "name": "ййййцуйцуцйу",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-14T09:14:24.107Z",
+        "slug": "новое-блюдо",
+        "price": "",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 2,
+    "isVisible": true,
+    "lastModified": "2025-03-14T09:06:06.995Z",
+    "slug": "салаты"
+  },
+  {
+    "id": "1741945613393",
+    "name": "Виски",
+    "items": [
+      {
+        "id": "1741952607820",
+        "name": "Новое блюдо",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T11:43:27.820Z",
+        "slug": "новое-блюдо",
+        "price": "",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 3,
+    "isVisible": true,
+    "lastModified": "2025-03-14T09:46:53.393Z",
+    "slug": "виски"
+  },
+  {
+    "id": "1741946246877",
+    "name": "Рыба",
+    "items": [
+      {
+        "id": "1741952553106",
+        "name": "Селедка",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T11:42:33.106Z",
+        "slug": "новое-блюдо",
+        "price": "900 р.",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 4,
+    "isVisible": true,
+    "lastModified": "2025-03-14T09:57:26.877Z",
+    "slug": "рыба"
+  },
+  {
+    "id": "1741941122422",
+    "name": "Алкоголь",
+    "items": [
+      {
+        "id": "1741944025844",
+        "name": "Коньяк",
+        "isSubcategory": true,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T09:20:25.844Z",
+        "slug": "новая-подкатегория",
+        "items": [
+          {
+            "id": "1741946711577",
+            "name": "Армянский",
+            "isSubcategory": false,
+            "order": 0,
+            "isVisible": true,
+            "lastModified": "2025-03-14T10:05:11.577Z",
+            "slug": "новое-блюдо",
+            "price": "500 р.",
+            "description": "",
+            "image": "",
+            "weight": "",
+            "nutrition": {
+              "calories": 0,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          }
+        ],
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 5,
+    "isVisible": true,
+    "lastModified": "2025-03-14T08:32:02.422Z",
+    "slug": "новая-категория"
+  },
+  {
+    "id": "1741945978636",
+    "name": "Лапша",
+    "items": [
+      {
+        "id": "1741952576983",
+        "name": "Доширак",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T11:42:56.983Z",
+        "slug": "новое-блюдо",
+        "price": "40 р.",
+        "description": "",
+        "image": "",
+        "weight": "",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 6,
+    "isVisible": true,
+    "lastModified": "2025-03-14T09:52:58.636Z",
+    "slug": "лапша"
+  },
+  {
+    "id": "1741946316926",
+    "name": "Чипсы",
+    "items": [],
+    "order": 7,
+    "isVisible": true,
+    "lastModified": "2025-03-14T09:58:36.926Z",
+    "slug": "чипсы"
+  }
+]
