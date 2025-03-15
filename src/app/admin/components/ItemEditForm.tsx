@@ -103,6 +103,7 @@ export const ItemEditForm: React.FC<ItemEditFormProps> = ({
                         width={70}
                         height={70}
                         className="rounded-lg object-cover w-[70px] h-[70px] md:w-[80px] md:h-[80px]"
+                        unoptimized
                       />
                       <button
                         type="button"

@@ -701,6 +701,7 @@ export default function Menu() {
                     src={item.image}
                     alt={item.name}
                     fill
+                    unoptimized
                     className="object-cover transform-gpu transition-transform duration-500 ease-out will-change-transform group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
@@ -779,6 +780,7 @@ export default function Menu() {
                           src={selectedItem.image}
                           alt={selectedItem.name}
                           fill
+                          unoptimized
                           className="object-cover transition-transform duration-1000 group-hover:scale-110"
                           sizes="(max-width: 768px) 100vw, 400px"
                         />

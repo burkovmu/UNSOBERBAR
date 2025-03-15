@@ -373,7 +373,7 @@
   },
   {
     "id": "1741967191033",
-    "name": "Блюда из рыбы и морепродуктов",
+    "name": "Блюда из морепродуктов",
     "items": [
       {
         "id": "1741967266026",
@@ -1296,7 +1296,7 @@
         "slug": "новое-блюдо",
         "price": "600 р.",
         "description": "Благородный французский коньяк с нотами фруктов, специй и дуба.",
-        "image": "",
+        "image": "/uploads/1742035378822.png",
         "weight": "50 мл",
         "nutrition": {
           "calories": 120,
@@ -1357,25 +1357,6 @@
         "weight": "50 мл.",
         "nutrition": {
           "calories": 110,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
-        }
-      },
-      {
-        "id": "1742032137550",
-        "name": "Новое блюдо",
-        "isSubcategory": false,
-        "order": 5,
-        "isVisible": true,
-        "lastModified": "2025-03-15T09:48:57.550Z",
-        "slug": "новое-блюдо",
-        "price": "",
-        "description": "",
-        "image": "",
-        "weight": "",
-        "nutrition": {
-          "calories": 0,
           "protein": 0,
           "fats": 0,
           "carbs": 0

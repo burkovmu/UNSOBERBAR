@@ -7,7 +7,8 @@ const nextConfig = {
         hostname: '*'
       }
     ],
-    domains: ['localhost']
+    domains: ['localhost', 'your-domain.com'],
+    unoptimized: true
   },
   experimental: {
     turbo: {
