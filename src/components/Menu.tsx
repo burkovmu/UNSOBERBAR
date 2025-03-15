@@ -719,13 +719,17 @@ export default function Menu() {
                       <p className="text-gray-400 text-sm font-light leading-relaxed line-clamp-2">
                         {item.description}
                       </p>
+                      {item.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '') ? (
+                        <div className="flex items-center mb-4">
+                          <span className="text-white/60 text-xs bg-white/10 px-3 py-1.5 rounded-full">
+                            {item.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '')}
+                          </span>
+                        </div>
+                      ) : null}
                       {item.price && (
                         <div className="pt-2">
                           <div className="flex justify-between items-center">
                             <p className="text-[#E6B980] font-medium text-lg md:text-xl tracking-wide">{item.price}</p>
-                            {item.weight && (
-                              <span className="text-xs text-gray-500 font-light">{item.weight}</span>
-                            )}
                           </div>
                         </div>
                       )}
@@ -793,17 +797,21 @@ export default function Menu() {
                         <Dialog.Title className="text-2xl md:text-3xl font-light tracking-wide text-[#E6B980]">
                           {selectedItem.name}
                         </Dialog.Title>
-                        {!selectedItem.isSubcategory && (
-                          <span className="text-white/60 text-xs ml-4 bg-white/5 px-3 py-1 rounded-full whitespace-nowrap">
-                            {selectedItem.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '')}
-                          </span>
-                        )}
                       </div>
                       {!selectedItem.isSubcategory ? (
                         <>
                           <p className="text-gray-300 text-sm leading-relaxed font-light mb-4">
                             {selectedItem.description}
                           </p>
+                          
+                          {selectedItem.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '') ? (
+                            <div className="flex items-center mb-4">
+                              <span className="text-white/60 text-xs bg-white/10 px-3 py-1.5 rounded-full">
+                                {selectedItem.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '')}
+                              </span>
+                            </div>
+                          ) : null}
+                          
                           <p className="text-2xl md:text-3xl font-medium tracking-wide text-white mb-6">{selectedItem.price}</p>
 
                           <div className="border-t border-white/10 pt-3">
