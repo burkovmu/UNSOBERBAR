@@ -5,15 +5,8 @@ export default function VideoBackground() {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const [isVideoError, setIsVideoError] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [isDomReady, setIsDomReady] = useState(false);
 
   useEffect(() => {
-    setIsDomReady(true);
-  }, []);
-
-  useEffect(() => {
-    if (!isDomReady) return;
-
     const video = videoRef.current;
     if (!video) return;
 
@@ -68,7 +61,7 @@ export default function VideoBackground() {
       video.removeEventListener('pause', handlePause);
       video.removeEventListener('timeupdate', handleTimeUpdate);
     };
-  }, [isDomReady, isPlaying]);
+  }, [isPlaying]);
 
   const handleVideoLoad = () => {
     console.log('Видео загружено');
@@ -86,8 +79,6 @@ export default function VideoBackground() {
     setIsVideoError(true);
     console.error('Ошибка загрузки видео');
   };
-
-  if (!isDomReady) return null;
 
   return (
     <div className="fixed inset-0 w-full h-full">
