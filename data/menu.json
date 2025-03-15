@@ -881,29 +881,10 @@
         "slug": "новая-подкатегория",
         "items": [
           {
-            "id": "1742029381423",
-            "name": "Каберне Совиньон (Франция)",
-            "isSubcategory": false,
-            "order": 0,
-            "isVisible": true,
-            "lastModified": "2025-03-15T09:03:01.423Z",
-            "slug": "новое-блюдо",
-            "price": "2900 р.",
-            "description": "Богатое вино с нотами черной смородины, вишни и легким оттенком дуба.\n\nАлкоголь: 13,5%",
-            "image": "/uploads/1742029670963.JPG",
-            "weight": "750 мл",
-            "nutrition": {
-              "calories": 120,
-              "protein": 0,
-              "fats": 0,
-              "carbs": 0
-            }
-          },
-          {
             "id": "1742029729301",
             "name": "Мерло (Италия)",
             "isSubcategory": false,
-            "order": 1,
+            "order": 0,
             "isVisible": true,
             "lastModified": "2025-03-15T09:08:49.301Z",
             "slug": "новое-блюдо",
@@ -922,7 +903,7 @@
             "id": "1742029947798",
             "name": "Пино Нуар (Чили)",
             "isSubcategory": false,
-            "order": 2,
+            "order": 1,
             "isVisible": true,
             "lastModified": "2025-03-15T09:12:27.798Z",
             "slug": "новое-блюдо",
@@ -941,7 +922,7 @@
             "id": "1742029980637",
             "name": "Шираз (Австралия)",
             "isSubcategory": false,
-            "order": 3,
+            "order": 2,
             "isVisible": true,
             "lastModified": "2025-03-15T09:13:00.637Z",
             "slug": "новое-блюдо",
@@ -960,7 +941,7 @@
             "id": "1742030080256",
             "name": "Мальбек (Аргентина)",
             "isSubcategory": false,
-            "order": 4,
+            "order": 3,
             "isVisible": true,
             "lastModified": "2025-03-15T09:14:40.256Z",
             "slug": "новое-блюдо",
@@ -979,7 +960,7 @@
             "id": "1742030146586",
             "name": "Бордо (Франция)",
             "isSubcategory": false,
-            "order": 5,
+            "order": 4,
             "isVisible": true,
             "lastModified": "2025-03-15T09:15:46.586Z",
             "slug": "новое-блюдо",
@@ -989,6 +970,25 @@
             "weight": "750 мл",
             "nutrition": {
               "calories": 125,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742029381423",
+            "name": "Каберне Совиньон (Франция)",
+            "isSubcategory": false,
+            "order": 5,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:03:01.423Z",
+            "slug": "новое-блюдо",
+            "price": "2900 р.",
+            "description": "Богатое вино с нотами черной смородины, вишни и легким оттенком дуба.\n\nАлкоголь: 13,5%",
+            "image": "/uploads/1742029670963.JPG",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 120,
               "protein": 0,
               "fats": 0,
               "carbs": 0

@@ -35,5 +35,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# uploads
-/public/uploads
+# Исключаем большие файлы изображений (более 5 МБ)
+/public/uploads/**/*.png
+/public/uploads/**/*.jpg
+/public/uploads/**/*.jpeg
+/public/uploads/**/*.webp
+/public/uploads/**/*.avif
+/public/uploads/**/*.gif
