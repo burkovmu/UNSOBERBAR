@@ -719,17 +719,15 @@ export default function Menu() {
                       <p className="text-gray-400 text-sm font-light leading-relaxed line-clamp-2">
                         {item.description}
                       </p>
-                      {item.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '') ? (
-                        <div className="flex items-center mb-4">
-                          <span className="text-white/60 text-xs bg-white/10 px-3 py-1.5 rounded-full">
-                            {item.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '')}
-                          </span>
-                        </div>
-                      ) : null}
                       {item.price && (
                         <div className="pt-2">
                           <div className="flex justify-between items-center">
                             <p className="text-[#E6B980] font-medium text-lg md:text-xl tracking-wide">{item.price}</p>
+                            {item.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '') ? (
+                              <span className="text-white/60 text-xs bg-white/10 px-3 py-1.5 rounded-full">
+                                {item.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '')}
+                              </span>
+                            ) : null}
                           </div>
                         </div>
                       )}
@@ -804,15 +802,14 @@ export default function Menu() {
                             {selectedItem.description}
                           </p>
                           
-                          {selectedItem.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '') ? (
-                            <div className="flex items-center mb-4">
+                          <div className="flex justify-between items-center mb-6">
+                            <p className="text-2xl md:text-3xl font-medium tracking-wide text-white">{selectedItem.price}</p>
+                            {selectedItem.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '') ? (
                               <span className="text-white/60 text-xs bg-white/10 px-3 py-1.5 rounded-full">
                                 {selectedItem.weight || (currentCategory.category === "Крепкий алкоголь" ? '50 мл' : '')}
                               </span>
-                            </div>
-                          ) : null}
-                          
-                          <p className="text-2xl md:text-3xl font-medium tracking-wide text-white mb-6">{selectedItem.price}</p>
+                            ) : null}
+                          </div>
 
                           <div className="border-t border-white/10 pt-3">
                             <h4 className="text-[10px] uppercase tracking-wider text-[#E6B980]/70 mb-2 font-light">Пищевая ценность</h4>
