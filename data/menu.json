@@ -1,381 +1,1125 @@
 [
   {
-    "id": "1741940623084",
-    "name": "Для кошек",
+    "id": "1741961872904",
+    "name": "Закуски",
     "items": [
       {
-        "id": "1741946564149",
-        "name": "Вискас",
+        "id": "1741962231007",
+        "name": "Брускетта с томатами, базиликом и моцареллой",
         "isSubcategory": false,
         "order": 0,
         "isVisible": true,
-        "lastModified": "2025-03-14T10:02:44.149Z",
+        "lastModified": "2025-03-14T14:23:51.007Z",
         "slug": "новое-блюдо",
-        "price": "380 руб",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "price": "450 р.",
+        "description": "Хрустящий хлеб с сочными томатами, свежим базиликом и нежной моцареллой.",
+        "image": "/uploads/1741962248093.png",
+        "weight": "120 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 120,
+          "protein": 6,
+          "fats": 4,
+          "carbs": 15
         }
       },
       {
-        "id": "1741946584199",
-        "name": "Шеба",
+        "id": "1741962403177",
+        "name": "Теплый салат с козьим сыром и медовой заправкой",
         "isSubcategory": false,
         "order": 1,
         "isVisible": true,
-        "lastModified": "2025-03-14T10:03:04.199Z",
+        "lastModified": "2025-03-14T14:26:43.177Z",
         "slug": "новое-блюдо",
-        "price": "800 р.",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "price": "620 р.",
+        "description": "Запеченный козий сыр с рукколой, грецкими орехами и медовой заправкой.",
+        "image": "/uploads/1741962421556.jpg",
+        "weight": "140 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 200,
+          "protein": 8,
+          "fats": 12,
+          "carbs": 10
         }
       },
       {
-        "id": "1741943866159",
-        "name": "Корм кош",
+        "id": "1741962337642",
+        "name": "Карпаччо из лосося с цитрусовой заправкой",
         "isSubcategory": false,
         "order": 2,
         "isVisible": true,
-        "lastModified": "2025-03-14T09:17:46.159Z",
+        "lastModified": "2025-03-14T14:25:37.642Z",
         "slug": "новое-блюдо",
-        "price": "550",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "price": "780 р.",
+        "description": "Тонко нарезанный лосось с цитрусовой заправкой, каперсами и зеленью.",
+        "image": "/uploads/1741962357652.jpg",
+        "weight": "130 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 180,
+          "protein": 14,
+          "fats": 10,
+          "carbs": 3
         }
       },
       {
-        "id": "1741953226615",
-        "name": "Шеба (копия)",
+        "id": "1741962437486",
+        "name": "Ассорти из маринованных оливок и артишоков",
         "isSubcategory": false,
         "order": 3,
         "isVisible": true,
-        "lastModified": "2025-03-14T11:53:46.615Z",
-        "slug": "шеба-копия",
-        "price": "800 р.",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "lastModified": "2025-03-14T14:27:17.486Z",
+        "slug": "новое-блюдо",
+        "price": "390 р.",
+        "description": "Маринованные оливки, артишоки и вяленые томаты с оливковым маслом.",
+        "image": "/uploads/1741962491261.jpeg",
+        "weight": "390 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 130,
+          "protein": 2,
+          "fats": 10,
+          "carbs": 6
         }
       },
       {
-        "id": "1741949684652",
-        "name": "Влажные корма",
-        "isSubcategory": true,
+        "id": "1741961909178",
+        "name": "Тартар из говядины с каперсами и яичным желтком",
+        "isSubcategory": false,
         "order": 4,
         "isVisible": true,
-        "lastModified": "2025-03-14T10:54:44.652Z",
-        "slug": "новая-подкатегория",
-        "items": [
-          {
-            "id": "1741949729946",
-            "name": "Индейка",
-            "isSubcategory": false,
-            "order": 0,
-            "isVisible": true,
-            "lastModified": "2025-03-14T10:55:29.946Z",
-            "slug": "новое-блюдо",
-            "price": "39 р.",
-            "description": "",
-            "image": "",
-            "weight": "",
-            "nutrition": {
-              "calories": 0,
-              "protein": 0,
-              "fats": 0,
-              "carbs": 0
-            }
-          },
-          {
-            "id": "1741951215602",
-            "name": "Новое блюдо 33",
-            "isSubcategory": false,
-            "order": 0,
-            "isVisible": true,
-            "lastModified": "2025-03-14T11:20:15.602Z",
-            "slug": "новое-блюдо",
-            "price": "",
-            "description": "",
-            "image": "",
-            "weight": "",
-            "nutrition": {
-              "calories": 0,
-              "protein": 0,
-              "fats": 0,
-              "carbs": 0
-            }
-          },
-          {
-            "id": "1741952100369",
-            "name": "Кролик",
-            "isSubcategory": false,
-            "order": 0,
-            "isVisible": true,
-            "lastModified": "2025-03-14T11:35:00.369Z",
-            "slug": "новое-блюдо",
-            "price": "",
-            "description": "",
-            "image": "",
-            "weight": "",
-            "nutrition": {
-              "calories": 0,
-              "protein": 0,
-              "fats": 0,
-              "carbs": 0
-            }
-          },
-          {
-            "id": "1741952326468",
-            "name": "Еще влажнее",
-            "isSubcategory": true,
-            "order": 3,
-            "isVisible": true,
-            "lastModified": "2025-03-14T11:38:46.468Z",
-            "slug": "новая-подкатегория",
-            "items": [
-              {
-                "id": "1741953000652",
-                "name": "Вода",
-                "isSubcategory": false,
-                "order": 0,
-                "isVisible": true,
-                "lastModified": "2025-03-14T11:50:00.652Z",
-                "slug": "новое-блюдо",
-                "price": "200 р.",
-                "description": "",
-                "image": "",
-                "weight": "",
-                "nutrition": {
-                  "calories": 0,
-                  "protein": 0,
-                  "fats": 0,
-                  "carbs": 0
-                }
-              }
-            ],
-            "nutrition": {
-              "calories": 0,
-              "protein": 0,
-              "fats": 0,
-              "carbs": 0
-            }
-          }
-        ],
+        "lastModified": "2025-03-14T14:18:29.178Z",
+        "slug": "новое-блюдо",
+        "price": "790 р.",
+        "description": "Нежное мясо говядины, нарезанное вручную, с каперсами, луком и свежим яичным желтком. Подается с тостами.",
+        "image": "/uploads/1741962151301.jpg",
+        "weight": "150 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 150,
+          "protein": 12,
+          "fats": 8,
+          "carbs": 5
+        }
+      },
+      {
+        "id": "1741962538114",
+        "name": "Тыквенный крем-суп с гренками",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-14T14:28:58.114Z",
+        "slug": "новое-блюдо",
+        "price": "350 р.",
+        "description": "Нежный крем-суп из тыквы с ароматными специями и хрустящими гренками.",
+        "image": "/uploads/1741962578740.png",
+        "weight": "250 г",
+        "nutrition": {
+          "calories": 140,
+          "protein": 3,
+          "fats": 5,
+          "carbs": 20
         }
       }
     ],
     "order": 0,
     "isVisible": true,
-    "lastModified": "2025-03-14T08:23:43.084Z",
-    "slug": "новая-категория"
+    "lastModified": "2025-03-14T14:17:52.904Z",
+    "slug": "закуски"
   },
   {
-    "id": "1741941353886",
-    "name": "Магазин",
+    "id": "1741962796813",
+    "name": "Салаты",
     "items": [
       {
-        "id": "1741952623495",
-        "name": "колбаса",
+        "id": "1741962819472",
+        "name": "Цезарь с курицей и пармезаном",
         "isSubcategory": false,
         "order": 0,
         "isVisible": true,
-        "lastModified": "2025-03-14T11:43:43.495Z",
+        "lastModified": "2025-03-14T14:33:39.472Z",
         "slug": "новое-блюдо",
-        "price": "50",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "price": "690 р.",
+        "description": "Классический салат с куриной грудкой, листьями айсберга, крутонами, пармезаном и соусом Цезарь.",
+        "image": "/uploads/1741962917870.webp",
+        "weight": "250 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 220,
+          "protein": 18,
+          "fats": 12,
+          "carbs": 10
+        }
+      },
+      {
+        "id": "1741966026985",
+        "name": "Греческий салат с фетой и оливками",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:27:06.985Z",
+        "slug": "новое-блюдо",
+        "price": "550 р.",
+        "description": "Свежие овощи: помидоры, огурцы, перец, красный лук, оливки и сыр фета, заправленные оливковым маслом.",
+        "image": "/uploads/1741966066393.jpeg",
+        "weight": "220 г",
+        "nutrition": {
+          "calories": 180,
+          "protein": 8,
+          "fats": 10,
+          "carbs": 12
+        }
+      },
+      {
+        "id": "1741966101914",
+        "name": "Салат с креветками, авокадо и рукколой",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:28:21.914Z",
+        "slug": "новое-блюдо",
+        "price": "850 р.",
+        "description": "Креветки, авокадо, руккола и черри-томаты с лимонной заправкой.",
+        "image": "/uploads/1741966146021.webp",
+        "weight": "200 г",
+        "nutrition": {
+          "calories": 230,
+          "protein": 15,
+          "fats": 14,
+          "carbs": 8
+        }
+      },
+      {
+        "id": "1741966192238",
+        "name": "Салат из свеклы с козьим сыром и грецкими орехами",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:29:52.238Z",
+        "slug": "новое-блюдо",
+        "price": "620 р.",
+        "description": "Запеченная свекла с козьим сыром, грецкими орехами и медовой заправкой.",
+        "image": "/uploads/1741966202649.png",
+        "weight": "180 г",
+        "nutrition": {
+          "calories": 200,
+          "protein": 7,
+          "fats": 12,
+          "carbs": 15
+        }
+      },
+      {
+        "id": "1741966235160",
+        "name": "Салат с тунцом, яйцом и зеленой фасолью",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:30:35.160Z",
+        "slug": "новое-блюдо",
+        "price": "720 р.",
+        "description": "Тунец, отварное яйцо, зеленая фасоль и листья салата с горчичной заправкой.",
+        "image": "/uploads/1741966296973.jpg",
+        "weight": "210 г",
+        "nutrition": {
+          "calories": 210,
+          "protein": 20,
+          "fats": 8,
+          "carbs": 10
+        }
+      },
+      {
+        "id": "1741966319952",
+        "name": "Салат с киноа, овощами и лимонной заправкой",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:31:59.952Z",
+        "slug": "новое-блюдо",
+        "price": "580 р.",
+        "description": "Киноа с огурцами, помидорами, авокадо и лимонной заправкой.",
+        "image": "/uploads/1741966402973.jpg",
+        "weight": "200 г",
+        "nutrition": {
+          "calories": 190,
+          "protein": 6,
+          "fats": 10,
+          "carbs": 25
         }
       }
     ],
     "order": 1,
     "isVisible": true,
-    "lastModified": "2025-03-14T08:35:53.886Z",
-    "slug": "новая-категория"
+    "lastModified": "2025-03-14T14:33:16.814Z",
+    "slug": "салаты"
   },
   {
-    "id": "1741943166995",
-    "name": "Салаты",
+    "id": "1741966505632",
+    "name": "Блюда из мяса",
     "items": [
       {
-        "id": "1741953273213",
-        "name": "Оливье",
+        "id": "1741966562092",
+        "name": "Стейк рибай с розмарином и печеным картофелем",
         "isSubcategory": false,
         "order": 0,
         "isVisible": true,
-        "lastModified": "2025-03-14T11:54:33.213Z",
+        "lastModified": "2025-03-14T15:36:02.092Z",
         "slug": "новое-блюдо",
-        "price": "770",
-        "description": "АОРоватыль",
-        "image": "/uploads/1741953300293.webp",
-        "weight": "300 гр",
+        "price": "1890 р.",
+        "description": "Сочный стейк рибай средней прожарки с ароматом розмарина, подается с печеным картофелем и соусом на выбор.",
+        "image": "/uploads/1741966591477.jpg",
+        "weight": "300 г",
         "nutrition": {
-          "calories": 300,
-          "protein": 20,
-          "fats": 30,
-          "carbs": 40
+          "calories": 550,
+          "protein": 45,
+          "fats": 35,
+          "carbs": 20
         }
       },
       {
-        "id": "1741943630204",
-        "name": "вавыаыв",
+        "id": "1741966644456",
+        "name": "Медальоны из телятины с грибным соусом",
         "isSubcategory": false,
         "order": 1,
         "isVisible": true,
-        "lastModified": "2025-03-14T09:13:50.204Z",
+        "lastModified": "2025-03-14T15:37:24.456Z",
         "slug": "новое-блюдо",
-        "price": "",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "price": "1650 р.",
+        "description": "Нежные медальоны из телятины, обжаренные до золотистой корочки, подаются с грибным соусом и овощным рататуем.",
+        "image": "/uploads/1741966735018.jpg",
+        "weight": "250 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 480,
+          "protein": 40,
+          "fats": 25,
+          "carbs": 15
         }
       },
       {
-        "id": "1741943664107",
-        "name": "ййййцуйцуцйу",
+        "id": "1741966780172",
+        "name": "Бараньи ребрышки с мятным соусом",
         "isSubcategory": false,
         "order": 2,
         "isVisible": true,
-        "lastModified": "2025-03-14T09:14:24.107Z",
+        "lastModified": "2025-03-14T15:39:40.172Z",
         "slug": "новое-блюдо",
-        "price": "",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "price": "1750 р.",
+        "description": "Ароматные бараньи ребрышки, запеченные с травами, подаются с мятным соусом и запеченными овощами.",
+        "image": "/uploads/1741966839337.jpg",
+        "weight": "350 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 520,
+          "protein": 35,
+          "fats": 40,
+          "carbs": 10
+        }
+      },
+      {
+        "id": "1741966896945",
+        "name": "Утка с апельсиновым глазурью и пюре из сельдерея",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:41:36.945Z",
+        "slug": "новое-блюдо",
+        "price": "1820 р.",
+        "description": "Утиная грудка с хрустящей корочкой, политая апельсиновым глазурью, подается с нежным пюре из сельдерея.",
+        "image": "/uploads/1741966915746.webp",
+        "weight": "250 г",
+        "nutrition": {
+          "calories": 500,
+          "protein": 30,
+          "fats": 30,
+          "carbs": 25
+        }
+      },
+      {
+        "id": "1741966984236",
+        "name": "Свиная вырезка с яблочным чатни",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:43:04.236Z",
+        "slug": "новое-блюдо",
+        "price": "1450 р.",
+        "description": "Свиная вырезка, запеченная с травами, подается с яблочным чатни и картофельным гратеном.",
+        "image": "/uploads/1741967000423.jpeg",
+        "weight": "350 г",
+        "nutrition": {
+          "calories": 450,
+          "protein": 35,
+          "fats": 20,
+          "carbs": 30
+        }
+      },
+      {
+        "id": "1741967061408",
+        "name": "Котлета по-киевски с картофельным пюре",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:44:21.408Z",
+        "slug": "новое-блюдо",
+        "price": "1320 р.",
+        "description": "Нежная куриная котлета, фаршированная сливочным маслом с зеленью, подается с воздушным картофельным пюре.",
+        "image": "/uploads/1741967077495.jpeg",
+        "weight": "200 г",
+        "nutrition": {
+          "calories": 500,
+          "protein": 25,
+          "fats": 30,
+          "carbs": 35
         }
       }
     ],
     "order": 2,
     "isVisible": true,
-    "lastModified": "2025-03-14T09:06:06.995Z",
-    "slug": "салаты"
+    "lastModified": "2025-03-14T15:35:05.632Z",
+    "slug": "основные-блюда-из-мяса"
   },
   {
-    "id": "1741945613393",
-    "name": "Виски",
+    "id": "1741967191033",
+    "name": "Блюда из рыбы и морепродуктов",
     "items": [
       {
-        "id": "1741952607820",
-        "name": "Новое блюдо",
+        "id": "1741967266026",
+        "name": "Лосось на гриле с лимонным соусом",
         "isSubcategory": false,
         "order": 0,
         "isVisible": true,
-        "lastModified": "2025-03-14T11:43:27.820Z",
+        "lastModified": "2025-03-14T15:47:46.026Z",
         "slug": "новое-блюдо",
-        "price": "",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "price": "1450 р.",
+        "description": "Филе лосося, приготовленное на гриле, с лимонным соусом и подачей с овощами на пару.",
+        "image": "/uploads/1741967288927.jpg",
+        "weight": "300 г",
         "nutrition": {
-          "calories": 0,
-          "protein": 0,
-          "fats": 0,
-          "carbs": 0
+          "calories": 320,
+          "protein": 30,
+          "fats": 20,
+          "carbs": 5
+        }
+      },
+      {
+        "id": "1741967343990",
+        "name": "Паста с морепродуктами в томатном соусе",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:49:03.990Z",
+        "slug": "новое-блюдо",
+        "price": "1280 р.",
+        "description": "Спагетти с мидиями, креветками и кальмарами в ароматном томатном соусе с чесноком и базиликом.",
+        "image": "/uploads/1741967354843.jpg",
+        "weight": "300 г",
+        "nutrition": {
+          "calories": 380,
+          "protein": 25,
+          "fats": 10,
+          "carbs": 40
+        }
+      },
+      {
+        "id": "1741967409321",
+        "name": "Дорадо с овощами на пару",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:50:09.321Z",
+        "slug": "новое-блюдо",
+        "price": "1350 р.",
+        "description": "Целая дорадо, приготовленная на пару, с сезонными овощами и лимонным дольками.",
+        "image": "/uploads/1741967422172.jpg",
+        "weight": "350 г",
+        "nutrition": {
+          "calories": 300,
+          "protein": 35,
+          "fats": 15,
+          "carbs": 10
+        }
+      },
+      {
+        "id": "1741967479933",
+        "name": "Креветки в чесночном соусе",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:51:19.933Z",
+        "slug": "новое-блюдо",
+        "price": "1120 р.",
+        "description": "Крупные тигровые креветки, обжаренные в чесночном соусе, подаются с рисом басмати.",
+        "image": "/uploads/1741967489558.jpg",
+        "weight": "250 г",
+        "nutrition": {
+          "calories": 350,
+          "protein": 20,
+          "fats": 12,
+          "carbs": 30
+        }
+      },
+      {
+        "id": "1741967516043",
+        "name": "Мидии в белом вине с багетом",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:51:56.043Z",
+        "slug": "новое-блюдо",
+        "price": "980 р.",
+        "description": "Мидии, приготовленные в белом вине с чесноком, луком и сливками, подаются с хрустящим багетом.",
+        "image": "/uploads/1741967560144.jpeg",
+        "weight": "350 г",
+        "nutrition": {
+          "calories": 280,
+          "protein": 15,
+          "fats": 10,
+          "carbs": 20
+        }
+      },
+      {
+        "id": "1741967631629",
+        "name": "Устрицы с лимоном и табаско",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-14T15:53:51.629Z",
+        "slug": "новое-блюдо",
+        "price": "2200 р.",
+        "description": "Свежие устрицы, подаются на льду с дольками лимона и соусом табаско.",
+        "image": "/uploads/1741967658382.avif",
+        "weight": "150 г",
+        "nutrition": {
+          "calories": 80,
+          "protein": 10,
+          "fats": 5,
+          "carbs": 2
         }
       }
     ],
     "order": 3,
     "isVisible": true,
-    "lastModified": "2025-03-14T09:46:53.393Z",
-    "slug": "виски"
+    "lastModified": "2025-03-14T15:46:31.033Z",
+    "slug": "основные-блюда-из-рыбы-и-морепродуктов"
   },
   {
-    "id": "1741946246877",
-    "name": "Рыба",
+    "id": "1741967777651",
+    "name": "Паста и ризотто",
     "items": [
       {
-        "id": "1741952553106",
-        "name": "Селедка",
+        "id": "1741967851238",
+        "name": "Спагетти карбонара",
         "isSubcategory": false,
         "order": 0,
         "isVisible": true,
-        "lastModified": "2025-03-14T11:42:33.106Z",
+        "lastModified": "2025-03-14T15:57:31.238Z",
         "slug": "новое-блюдо",
-        "price": "900 р.",
-        "description": "",
-        "image": "",
-        "weight": "",
+        "price": "890 р.",
+        "description": "Классическая паста с беконом, сливочным соусом, яичным желтком и пармезаном.",
+        "image": "/uploads/1741967868035.webp",
+        "weight": "300 г",
+        "nutrition": {
+          "calories": 450,
+          "protein": 15,
+          "fats": 20,
+          "carbs": 50
+        }
+      },
+      {
+        "id": "1741968014024",
+        "name": "Паста с трюфельным соусом",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:00:14.024Z",
+        "slug": "новое-блюдо",
+        "price": "1250 р.",
+        "description": "Спагетти с ароматным трюфельным соусом, сливками и пармезаном.",
+        "image": "/uploads/1741968029440.png",
+        "weight": "250 г",
+        "nutrition": {
+          "calories": 420,
+          "protein": 10,
+          "fats": 25,
+          "carbs": 40
+        }
+      },
+      {
+        "id": "1741968188766",
+        "name": "Ризотто с грибами и пармезаном",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:03:08.766Z",
+        "slug": "новое-блюдо",
+        "price": "950 р.",
+        "description": "Нежное ризотто с шампиньонами, белыми грибами и пармезаном.",
+        "image": "/uploads/1741968204638.jpg",
+        "weight": "280 г",
+        "nutrition": {
+          "calories": 380,
+          "protein": 12,
+          "fats": 15,
+          "carbs": 55
+        }
+      },
+      {
+        "id": "1741968532702",
+        "name": "Лазанья с мясным рагу",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:08:52.702Z",
+        "slug": "новое-блюдо",
+        "price": "1100 р.",
+        "description": "Слоистая лазанья с мясным рагу из говядины, томатным соусом и сыром моцарелла.",
+        "image": "/uploads/1741968551085.jpg",
+        "weight": "300 г",
+        "nutrition": {
+          "calories": 400,
+          "protein": 20,
+          "fats": 18,
+          "carbs": 45
+        }
+      },
+      {
+        "id": "1741968605514",
+        "name": "Паста с лососем и сливочным соусом",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:10:05.514Z",
+        "slug": "новое-блюдо",
+        "price": "1350 р.",
+        "description": "Спагетти с кусочками лосося в нежном сливочном соусе с добавлением укропа.",
+        "image": "/uploads/1741968664864.jpeg",
+        "weight": "300 г",
+        "nutrition": {
+          "calories": 430,
+          "protein": 25,
+          "fats": 20,
+          "carbs": 40
+        }
+      },
+      {
+        "id": "1741968697267",
+        "name": "Ризотто с морепродуктами",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:11:37.267Z",
+        "slug": "новое-блюдо",
+        "price": "1450 р.",
+        "description": "Ризотто с креветками, мидиями и кальмарами в ароматном томатно-сливочном соусе.",
+        "image": "/uploads/1741968809904.jpg",
+        "weight": "300 г",
+        "nutrition": {
+          "calories": 400,
+          "protein": 22,
+          "fats": 15,
+          "carbs": 50
+        }
+      }
+    ],
+    "order": 4,
+    "isVisible": true,
+    "lastModified": "2025-03-14T15:56:17.651Z",
+    "slug": "паста-и-ризотто"
+  },
+  {
+    "id": "1741968965493",
+    "name": "Десерты",
+    "items": [
+      {
+        "id": "1741969228915",
+        "name": "Тирамису",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:20:28.915Z",
+        "slug": "новое-блюдо",
+        "price": "650 р.",
+        "description": "Классический итальянский десерт из слоев савоярди, пропитанных кофе, и нежного крема на основе маскарпоне.",
+        "image": "/uploads/1741969251887.webp",
+        "weight": "150 г",
+        "nutrition": {
+          "calories": 320,
+          "protein": 6,
+          "fats": 20,
+          "carbs": 35
+        }
+      },
+      {
+        "id": "1741969280568",
+        "name": "Чизкейк с ягодным соусом",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:21:20.568Z",
+        "slug": "новое-блюдо",
+        "price": "720 р.",
+        "description": "Нежный чизкейк с хрустящей основой из песочного теста, подается с ягодным соусом.",
+        "image": "/uploads/1741969388792.jpg",
+        "weight": "180 г",
+        "nutrition": {
+          "calories": 380,
+          "protein": 8,
+          "fats": 25,
+          "carbs": 40
+        }
+      },
+      {
+        "id": "1741969448477",
+        "name": "Шоколадный фондан с ванильным мороженым",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:24:08.477Z",
+        "slug": "новое-блюдо",
+        "price": "780 р.",
+        "description": "Теплый шоколадный кекс с жидкой начинкой, подается с шариком ванильного мороженого.",
+        "image": "/uploads/1741969469318.jpg",
+        "weight": "200 г",
+        "nutrition": {
+          "calories": 450,
+          "protein": 6,
+          "fats": 30,
+          "carbs": 45
+        }
+      },
+      {
+        "id": "1741969549797",
+        "name": "Крем-брюле",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:25:49.797Z",
+        "slug": "новое-блюдо",
+        "price": "590 р.",
+        "description": "Нежный заварной крем с хрустящей карамельной корочкой.",
+        "image": "/uploads/1741969629169.jpg",
+        "weight": "120 г",
+        "nutrition": {
+          "calories": 280,
+          "protein": 5,
+          "fats": 15,
+          "carbs": 30
+        }
+      },
+      {
+        "id": "1741969687908",
+        "name": "Яблочный пирог с корицей",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:28:07.908Z",
+        "slug": "новое-блюдо",
+        "price": "550 р.",
+        "description": "Ароматный пирог с яблоками, корицей и рассыпчатым тестом, подается с шариком ванильного мороженого.",
+        "image": "/uploads/1741969769564.webp",
+        "weight": "200 г",
+        "nutrition": {
+          "calories": 300,
+          "protein": 4,
+          "fats": 12,
+          "carbs": 50
+        }
+      },
+      {
+        "id": "1741969806218",
+        "name": "Макаруны ассорти (6 шт.)",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:30:06.218Z",
+        "slug": "новое-блюдо",
+        "price": "850 р.",
+        "description": "Нежные французские макаруны с начинкой: ваниль, шоколад, малина, фисташка, лимон и карамель.",
+        "image": "/uploads/1741969942727.jpg",
+        "weight": "120 г",
+        "nutrition": {
+          "calories": 350,
+          "protein": 5,
+          "fats": 20,
+          "carbs": 40
+        }
+      }
+    ],
+    "order": 5,
+    "isVisible": true,
+    "lastModified": "2025-03-14T16:16:05.493Z",
+    "slug": "десерты"
+  },
+  {
+    "id": "1741970101398",
+    "name": "Безалкогольные напитки",
+    "items": [
+      {
+        "id": "1741970275580",
+        "name": "Свежевыжатый апельсиновый сок",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:37:55.580Z",
+        "slug": "новое-блюдо",
+        "price": "350 р.",
+        "description": "Натуральный сок из свежих апельсинов, богатый витамином C.",
+        "image": "/uploads/1741970359797.jpg",
+        "weight": "250 мл",
+        "nutrition": {
+          "calories": 110,
+          "protein": 2,
+          "fats": 0,
+          "carbs": 25
+        }
+      },
+      {
+        "id": "1741970386814",
+        "name": "Лимонад с мятой и лаймом",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-14T16:39:46.814Z",
+        "slug": "новое-блюдо",
+        "price": "290 р.",
+        "description": "Освежающий лимонад с добавлением свежей мяты и лайма.",
+        "image": "/uploads/1741970426854.jpg",
+        "weight": "300 мл",
+        "nutrition": {
+          "calories": 80,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 20
+        }
+      },
+      {
+        "id": "1742028874475",
+        "name": "Морс из клюквы",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-15T08:54:34.475Z",
+        "slug": "новое-блюдо",
+        "price": "320 р.",
+        "description": "Натуральный морс из клюквы с легкой кислинкой.",
+        "image": "/uploads/1742028884307.webp",
+        "weight": "250 мл",
+        "nutrition": {
+          "calories": 90,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 22
+        }
+      },
+      {
+        "id": "1742028911173",
+        "name": "Газированная вода с лимоном",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-15T08:55:11.173Z",
+        "slug": "новое-блюдо",
+        "price": "180 р.",
+        "description": "Газированная вода с добавлением свежего лимона.",
+        "image": "/uploads/1742028976024.jpg",
+        "weight": "300 мл",
         "nutrition": {
           "calories": 0,
           "protein": 0,
           "fats": 0,
           "carbs": 0
         }
+      },
+      {
+        "id": "1742028997566",
+        "name": "Чай зеленый/черный",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-15T08:56:37.566Z",
+        "slug": "новое-блюдо",
+        "price": "200 р.",
+        "description": "Ароматный зеленый или черный чай на выбор.",
+        "image": "/uploads/1742029038051.webp",
+        "weight": "300 мл",
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742029214785",
+        "name": "Кофе американо",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:00:14.785Z",
+        "slug": "новое-блюдо",
+        "price": "250 р.",
+        "description": "Крепкий эспрессо или американо, приготовленный из свежемолотых зерен.",
+        "image": "/uploads/1742029238913.webp",
+        "weight": "120 мл",
+        "nutrition": {
+          "calories": 2,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 1
+        }
       }
     ],
-    "order": 4,
+    "order": 6,
     "isVisible": true,
-    "lastModified": "2025-03-14T09:57:26.877Z",
-    "slug": "рыба"
+    "lastModified": "2025-03-14T16:35:01.398Z",
+    "slug": "сырная-тарелка"
   },
   {
-    "id": "1741941122422",
-    "name": "Алкоголь",
+    "id": "1742029326452",
+    "name": "Вино",
     "items": [
       {
-        "id": "1741944025844",
-        "name": "Коньяк",
+        "id": "1742029329417",
+        "name": "Красное",
         "isSubcategory": true,
         "order": 0,
         "isVisible": true,
-        "lastModified": "2025-03-14T09:20:25.844Z",
+        "lastModified": "2025-03-15T09:02:09.417Z",
         "slug": "новая-подкатегория",
         "items": [
           {
-            "id": "1741946711577",
-            "name": "Армянский",
+            "id": "1742029381423",
+            "name": "Каберне Совиньон (Франция)",
             "isSubcategory": false,
             "order": 0,
             "isVisible": true,
-            "lastModified": "2025-03-14T10:05:11.577Z",
+            "lastModified": "2025-03-15T09:03:01.423Z",
             "slug": "новое-блюдо",
-            "price": "500 р.",
-            "description": "",
-            "image": "",
-            "weight": "",
+            "price": "2900 р.",
+            "description": "Богатое вино с нотами черной смородины, вишни и легким оттенком дуба.\n\nАлкоголь: 13,5%",
+            "image": "/uploads/1742029670963.JPG",
+            "weight": "750 мл",
             "nutrition": {
-              "calories": 0,
+              "calories": 120,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742029729301",
+            "name": "Мерло (Италия)",
+            "isSubcategory": false,
+            "order": 1,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:08:49.301Z",
+            "slug": "новое-блюдо",
+            "price": "2700 р.",
+            "description": "Мягкое вино с ароматами сливы, вишни и шоколада.\n\nАлкоголь: 13%",
+            "image": "/uploads/1742029820371.jpg",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 115,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742029947798",
+            "name": "Пино Нуар (Чили)",
+            "isSubcategory": false,
+            "order": 2,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:12:27.798Z",
+            "slug": "новое-блюдо",
+            "price": "3100 р.",
+            "description": "Элегантное вино с нотами красных ягод, ванили и легкой пряностью.\n\nАлкоголь: 13,5%",
+            "image": "/uploads/1742029955511.webp",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 125,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742029980637",
+            "name": "Шираз (Австралия)",
+            "isSubcategory": false,
+            "order": 3,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:13:00.637Z",
+            "slug": "новое-блюдо",
+            "price": "3300 р.",
+            "description": "Интенсивное вино с ароматами черного перца, темных ягод и дыма.\n\nАлкоголь: 14%",
+            "image": "/uploads/1742030025064.jpg",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 130,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742030080256",
+            "name": "Мальбек (Аргентина)",
+            "isSubcategory": false,
+            "order": 4,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:14:40.256Z",
+            "slug": "новое-блюдо",
+            "price": "2800 р.",
+            "description": "Насыщенное вино с нотами ежевики, сливы и легким оттенком табака.\n\nАлкоголь: 13,5%",
+            "image": "/uploads/1742030086653.jpg",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 120,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742030146586",
+            "name": "Бордо (Франция)",
+            "isSubcategory": false,
+            "order": 5,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:15:46.586Z",
+            "slug": "новое-блюдо",
+            "price": "3500 р.",
+            "description": "Классическое французское вино с нотами черной смородины, специй и дуба.\n\nАлкоголь: 13%",
+            "image": "/uploads/1742030153954.webp",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 125,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          }
+        ],
+        "nutrition": {
+          "calories": 0,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742029347610",
+        "name": "Белое",
+        "isSubcategory": true,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:02:27.610Z",
+        "slug": "новая-подкатегория",
+        "items": [
+          {
+            "id": "1742030300524",
+            "name": "Шардоне (Калифорния)",
+            "isSubcategory": false,
+            "order": 0,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:18:20.524Z",
+            "slug": "новое-блюдо",
+            "price": "2600 р.",
+            "description": "Вино с нотами яблока, груши и легким оттенком ванили.\n\nАлкоголь: 13%",
+            "image": "/uploads/1742030307666.webp",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 120,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742030479832",
+            "name": "Совиньон Блан (Новая Зеландия)",
+            "isSubcategory": false,
+            "order": 1,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:21:19.832Z",
+            "slug": "новое-блюдо",
+            "price": "2400 р.",
+            "description": "Свежее вино с ароматами крыжовника, цитрусовых и трав.\n\nАлкоголь: 12,5%",
+            "image": "/uploads/1742030488284.webp",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 110,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742030534261",
+            "name": "Пино Гриджио (Италия)",
+            "isSubcategory": false,
+            "order": 2,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:22:14.261Z",
+            "slug": "новое-блюдо",
+            "price": "2200 р.",
+            "description": "Легкое вино с нотами зеленого яблока, груши и цитрусовых.\n\nАлкоголь: 12%",
+            "image": "/uploads/1742030596030.jpeg",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 150,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742030652912",
+            "name": "Рислинг (Германия)",
+            "isSubcategory": false,
+            "order": 3,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:24:12.912Z",
+            "slug": "новое-блюдо",
+            "price": "2500 р.",
+            "description": "Вино с яркими нотами персика, яблока и меда.\n\nАлкоголь: 11%",
+            "image": "/uploads/1742030669856.webp",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 100,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742030727322",
+            "name": "Просекко (Италия)",
+            "isSubcategory": false,
+            "order": 4,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:25:27.322Z",
+            "slug": "новое-блюдо",
+            "price": "2800 р.",
+            "description": "Игристое вино с нотами зеленого яблока, груши и цветов.\n\nАлкоголь: 11,5%",
+            "image": "/uploads/1742030740956.jpg",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 110,
+              "protein": 0,
+              "fats": 0,
+              "carbs": 0
+            }
+          },
+          {
+            "id": "1742030798721",
+            "name": "Мускат (Испания)",
+            "isSubcategory": false,
+            "order": 5,
+            "isVisible": true,
+            "lastModified": "2025-03-15T09:26:38.721Z",
+            "slug": "новое-блюдо",
+            "price": "2300 р.",
+            "description": "Сладкое вино с ароматами персика, абрикоса и цветов.\n\nАлкоголь: 12%",
+            "image": "/uploads/1742030824477.webp",
+            "weight": "750 мл",
+            "nutrition": {
+              "calories": 130,
               "protein": 0,
               "fats": 0,
               "carbs": 0
@@ -390,24 +1134,243 @@
         }
       }
     ],
-    "order": 5,
+    "order": 7,
     "isVisible": true,
-    "lastModified": "2025-03-14T08:32:02.422Z",
-    "slug": "новая-категория"
+    "lastModified": "2025-03-15T09:02:06.452Z",
+    "slug": "вино"
   },
   {
-    "id": "1741945978636",
-    "name": "Лапша",
+    "id": "1742031267197",
+    "name": "Коктейли",
     "items": [
       {
-        "id": "1741952576983",
-        "name": "Доширак",
+        "id": "1742031280003",
+        "name": "Мохито",
         "isSubcategory": false,
         "order": 0,
         "isVisible": true,
-        "lastModified": "2025-03-14T11:42:56.983Z",
+        "lastModified": "2025-03-15T09:34:40.003Z",
         "slug": "новое-блюдо",
-        "price": "40 р.",
+        "price": "650 р.",
+        "description": "Освежающий коктейль из белого рома, свежей мяты, лайма, сахара и содовой.",
+        "image": "/uploads/1742031334379.webp",
+        "weight": "300 мл",
+        "nutrition": {
+          "calories": 150,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742031378192",
+        "name": "Маргарита",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:36:18.192Z",
+        "slug": "новое-блюдо",
+        "price": "720 р.",
+        "description": "Классический коктейль из текилы, апельсинового ликера (трипл сек) и лаймового сока, подается с солью на краю бокала.",
+        "image": "/uploads/1742031385026.webp",
+        "weight": "200 мл",
+        "nutrition": {
+          "calories": 180,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742031431678",
+        "name": "Негрони",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:37:11.678Z",
+        "slug": "новое-блюдо",
+        "price": "780 р.",
+        "description": "Биттерный коктейль из джина, красного вермута и кампари, подается со льдом и апельсиновой цедрой.",
+        "image": "/uploads/1742031442284.webp",
+        "weight": "150 мл",
+        "nutrition": {
+          "calories": 200,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742031487937",
+        "name": "Дайкири",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:38:07.937Z",
+        "slug": "новое-блюдо",
+        "price": "700 р.",
+        "description": "Освежающий коктейль из белого рома, лаймового сока и сахара, подается охлажденным.",
+        "image": "/uploads/1742031498494.jpg",
+        "weight": "150 мл",
+        "nutrition": {
+          "calories": 170,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742031567574",
+        "name": "Космополитен",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:39:27.574Z",
+        "slug": "новое-блюдо",
+        "price": "750 р.",
+        "description": "Элегантный коктейль из водки, клюквенного сока, апельсинового ликера (трипл сек) и лаймового сока.",
+        "image": "/uploads/1742031578213.jpg",
+        "weight": "200 мл",
+        "nutrition": {
+          "calories": 160,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742031626215",
+        "name": "Апероль Шприц",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:40:26.215Z",
+        "slug": "новое-блюдо",
+        "price": "680 р.",
+        "description": "Легкий и освежающий коктейль из апероля, просекко и содовой, подается с долькой апельсина.\n\n",
+        "image": "/uploads/1742031641781.jpg",
+        "weight": "250 мл",
+        "nutrition": {
+          "calories": 140,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 8,
+    "isVisible": true,
+    "lastModified": "2025-03-15T09:34:27.197Z",
+    "slug": "коктейли"
+  },
+  {
+    "id": "1742031766756",
+    "name": "Крепкий алкоголь",
+    "items": [
+      {
+        "id": "1742031840033",
+        "name": "Виски Jack Daniel’s",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:44:00.033Z",
+        "slug": "новое-блюдо",
+        "price": "450 р.",
+        "description": "Классический американский виски с нотами ванили, дуба и карамели.",
+        "image": "/uploads/1742031853450.webp",
+        "weight": "50 мл",
+        "nutrition": {
+          "calories": 120,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742031901363",
+        "name": "Коньяк Hennessy",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:45:01.363Z",
+        "slug": "новое-блюдо",
+        "price": "600 р.",
+        "description": "Благородный французский коньяк с нотами фруктов, специй и дуба.",
+        "image": "",
+        "weight": "50 мл",
+        "nutrition": {
+          "calories": 120,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742031927201",
+        "name": "Водка Beluga",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:45:27.201Z",
+        "slug": "новое-блюдо",
+        "price": "500 р.",
+        "description": "Премиальная водка с мягким вкусом и чистым послевкусием.",
+        "image": "/uploads/1742031974407.jpg",
+        "weight": "50 мл",
+        "nutrition": {
+          "calories": 110,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742032020256",
+        "name": "Текила Patrón",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:47:00.256Z",
+        "slug": "новое-блюдо",
+        "price": "550 р.",
+        "description": "Высококачественная текила с нотами агавы, цитрусовых и легкой пряностью.",
+        "image": "/uploads/1742032026987.jpg",
+        "weight": "50 мл",
+        "nutrition": {
+          "calories": 110,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742032077048",
+        "name": "Ром Bacardi",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:47:57.048Z",
+        "slug": "новое-блюдо",
+        "price": "400 р.",
+        "description": "Легкий и свежий белый ром с нотами ванили и тропических фруктов.",
+        "image": "/uploads/1742032083737.jpg",
+        "weight": "50 мл.",
+        "nutrition": {
+          "calories": 110,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742032137550",
+        "name": "Новое блюдо",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:48:57.550Z",
+        "slug": "новое-блюдо",
+        "price": "",
         "description": "",
         "image": "",
         "weight": "",
@@ -419,18 +1382,257 @@
         }
       }
     ],
-    "order": 6,
+    "order": 9,
     "isVisible": true,
-    "lastModified": "2025-03-14T09:52:58.636Z",
-    "slug": "лапша"
+    "lastModified": "2025-03-15T09:42:46.756Z",
+    "slug": "крепкий-алкоголь"
   },
   {
-    "id": "1741946316926",
-    "name": "Чипсы",
-    "items": [],
-    "order": 7,
+    "id": "1742032310406",
+    "name": "Пиво",
+    "items": [
+      {
+        "id": "1742032343607",
+        "name": "Лагер (Heineken)",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:52:23.607Z",
+        "slug": "новое-блюдо",
+        "price": "350 р.",
+        "description": "Легкое и освежающее пиво с мягким вкусом и легкой горчинкой.\n\nАлкоголь: 5%",
+        "image": "/uploads/1742032513704.webp",
+        "weight": "0,5 л",
+        "nutrition": {
+          "calories": 150,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742032568186",
+        "name": "Пшеничное (Hoegaarden)",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:56:08.186Z",
+        "slug": "новое-блюдо",
+        "price": "400 р.",
+        "description": "Светлое пшеничное пиво с нотами цитрусовых и пряностей.\n\nАлкоголь: 4,9%",
+        "image": "/uploads/1742032573886.jpg",
+        "weight": "0,5 л",
+        "nutrition": {
+          "calories": 160,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742032592693",
+        "name": "IPA (Sierra Nevada)",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:56:32.693Z",
+        "slug": "новое-блюдо",
+        "price": "450 р.",
+        "description": "Индийский светлый эль с яркой хмелевой горчинкой и нотами цитрусовых.\n\nАлкоголь: 6,8%",
+        "image": "/uploads/1742032645480.jpg",
+        "weight": "0,5 л",
+        "nutrition": {
+          "calories": 200,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742032705796",
+        "name": "Стаут (Guinness)",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:58:25.796Z",
+        "slug": "новое-блюдо",
+        "price": "420 р.",
+        "description": "Темное пиво с насыщенным вкусом кофе, шоколада и карамели.\n\nАлкоголь: 4,2%",
+        "image": "/uploads/1742032712337.jpg",
+        "weight": "0,5 л",
+        "nutrition": {
+          "calories": 180,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742032773669",
+        "name": "Безалкогольное пиво",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-15T09:59:33.669Z",
+        "slug": "новое-блюдо",
+        "price": "300 р.",
+        "description": "Освежающее безалкогольное пиво с легким вкусом и ароматом.\n\nАлкоголь: 0,5%",
+        "image": "/uploads/1742032783934.webp",
+        "weight": "0,5 л",
+        "nutrition": {
+          "calories": 70,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742032803781",
+        "name": "Крафтовое пиво (местное)",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-15T10:00:03.781Z",
+        "slug": "новое-блюдо",
+        "price": "500 р.",
+        "description": "Сезонное крафтовое пиво от местной пивоварни с уникальным вкусом и ароматом.\n\nАлкоголь: 5-7% (зависит от сорта)",
+        "image": "/uploads/1742032848270.jpg",
+        "weight": "0,5 л",
+        "nutrition": {
+          "calories": 200,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 10,
     "isVisible": true,
-    "lastModified": "2025-03-14T09:58:36.926Z",
-    "slug": "чипсы"
+    "lastModified": "2025-03-15T09:51:50.406Z",
+    "slug": "пиво"
+  },
+  {
+    "id": "1742032950960",
+    "name": "Крепленые напитки",
+    "items": [
+      {
+        "id": "1742032959722",
+        "name": "Портвейн (Tawny)",
+        "isSubcategory": false,
+        "order": 0,
+        "isVisible": true,
+        "lastModified": "2025-03-15T10:02:39.722Z",
+        "slug": "новое-блюдо",
+        "price": "1200 р.",
+        "description": "Крепленое вино с нотами орехов, карамели и сухофруктов.\n\nАлкоголь: 20%",
+        "image": "/uploads/1742033017606.jpg",
+        "weight": "150 мл",
+        "nutrition": {
+          "calories": 150,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742033066530",
+        "name": "Херес (Fino)",
+        "isSubcategory": false,
+        "order": 1,
+        "isVisible": true,
+        "lastModified": "2025-03-15T10:04:26.530Z",
+        "slug": "новое-блюдо",
+        "price": "1100 р.",
+        "description": "Сухой херес с легкими нотами миндаля и свежей выпечки.\n\nАлкоголь: 15%",
+        "image": "/uploads/1742033077043.jpeg",
+        "weight": "150 мл",
+        "nutrition": {
+          "calories": 120,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742033108232",
+        "name": "Саутерн (Château d’Yquem)",
+        "isSubcategory": false,
+        "order": 2,
+        "isVisible": true,
+        "lastModified": "2025-03-15T10:05:08.232Z",
+        "slug": "новое-блюдо",
+        "price": "2500 р.",
+        "description": "Элитное десертное вино с нотами меда, абрикоса и ванили.\n\nАлкоголь: 14%",
+        "image": "/uploads/1742033157949.png",
+        "weight": "150 мл",
+        "nutrition": {
+          "calories": 200,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742033226799",
+        "name": "Марсала",
+        "isSubcategory": false,
+        "order": 3,
+        "isVisible": true,
+        "lastModified": "2025-03-15T10:07:06.799Z",
+        "slug": "новое-блюдо",
+        "price": "900 р.",
+        "description": "Крепленое вино с нотами карамели, орехов и сухофруктов.\n\nАлкоголь: 18%",
+        "image": "/uploads/1742033236707.jpg",
+        "weight": "150 мл",
+        "nutrition": {
+          "calories": 160,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742033283992",
+        "name": "Мадейра",
+        "isSubcategory": false,
+        "order": 4,
+        "isVisible": true,
+        "lastModified": "2025-03-15T10:08:03.992Z",
+        "slug": "новое-блюдо",
+        "price": "1000 р.",
+        "description": "Крепленое вино с нотами карамели, орехов и легкой кислинкой.\n\nАлкоголь: 18%",
+        "image": "/uploads/1742033299234.webp",
+        "weight": "150 мл",
+        "nutrition": {
+          "calories": 170,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      },
+      {
+        "id": "1742033334041",
+        "name": "Амароне (Италия)",
+        "isSubcategory": false,
+        "order": 5,
+        "isVisible": true,
+        "lastModified": "2025-03-15T10:08:54.041Z",
+        "slug": "новое-блюдо",
+        "price": "1800 р.",
+        "description": "Богатое красное вино с нотами вишни, чернослива и шоколада.\n\nАлкоголь: 15%",
+        "image": "/uploads/1742033345600.webp",
+        "weight": "150 мл",
+        "nutrition": {
+          "calories": 190,
+          "protein": 0,
+          "fats": 0,
+          "carbs": 0
+        }
+      }
+    ],
+    "order": 11,
+    "isVisible": true,
+    "lastModified": "2025-03-15T10:02:30.960Z",
+    "slug": "крепленые-напитки"
   }
 ]
