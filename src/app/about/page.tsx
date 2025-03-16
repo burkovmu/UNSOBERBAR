@@ -286,7 +286,8 @@ export default function About() {
                     <p className="text-[#E6B980]/60 text-sm">Часы работы</p>
                     <p className="text-white/80 font-light">
                       Пн-Чт: 12:00 - 02:00<br />
-                      Пт-Сб: 12:00 - 04:00<br />
+                      Пт: 12:00 - 04:00<br />
+                      Сб: 15:00 - 04:00<br />
                       Вс: 15:00 - 02:00
                     </p>
                   </div>
@@ -294,7 +295,6 @@ export default function About() {
                     <p className="text-[#E6B980]/60 text-sm">Контакты</p>
                     <p className="text-white/80 font-light">
                       +7 999 123-45-67<br />
-                      info@restbar.ru
                     </p>
                   </div>
                 </div>

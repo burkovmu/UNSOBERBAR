@@ -47,7 +47,7 @@ export default function AdminPage() {
   // Состояние для новой категории
   const [showCategoryForm, setShowCategoryForm] = useState(false);
   const [newCategoryName, setNewCategoryName] = useState('');
-  
+
   // Состояние для редактирования категории
   const [editingCategoryId, setEditingCategoryId] = useState<string | null>(null);
   const [editingCategoryName, setEditingCategoryName] = useState('');
@@ -58,11 +58,11 @@ export default function AdminPage() {
   }, []);
 
   // Функция загрузки меню
-  const loadMenu = async () => {
-    try {
+    const loadMenu = async () => {
+      try {
       setIsLoading(true);
       setError(null);
-      const data = await menuService.loadMenu();
+        const data = await menuService.loadMenu();
       setMenu(data);
     } catch (err) {
       setError('Ошибка при загрузке меню');
@@ -108,7 +108,7 @@ export default function AdminPage() {
     const newMenu = [...menu, newCategory];
     await saveMenu(newMenu);
     setShowCategoryForm(false);
-    setNewCategoryName('');
+        setNewCategoryName('');
   };
 
   const updateCategory = async (categoryId: string, updates: Partial<MenuCategory>) => {
@@ -218,8 +218,8 @@ export default function AdminPage() {
         const updatedItems = item.items || [];
         // Устанавливаем порядок в конец списка
         newItem.order = updatedItems.length;
-        return {
-          ...item,
+            return {
+              ...item,
           items: [...updatedItems, newItem]
         };
       }
@@ -229,8 +229,8 @@ export default function AdminPage() {
         ...item,
         items: addItemToPath(item.items || [], restPath, newItem)
       };
-    });
-  };
+        });
+      };
 
   const updateItem = async (
     categoryId: string,
@@ -271,12 +271,12 @@ export default function AdminPage() {
     const [currentId, ...restPath] = path;
     return items.map(item => {
       if (item.id !== currentId) return item;
-      return {
-        ...item,
+            return {
+              ...item,
         items: updateItemInPath(item.items || [], restPath, itemId, updates)
+            };
+        });
       };
-    });
-  };
 
   const deleteItem = async (categoryId: string, itemId: string, parentPath: string[] = []) => {
     if (!confirm('Вы уверены, что хотите удалить этот элемент?')) return;
@@ -379,7 +379,7 @@ export default function AdminPage() {
             if (pathItem && pathItem.isSubcategory && pathItem.items) {
               currentParent = pathItem;
               currentItems = pathItem.items;
-            } else {
+      } else {
               return; // Путь не найден
             }
           }
@@ -412,8 +412,8 @@ export default function AdminPage() {
           });
           
           await saveMenu(newMenu);
-          return;
-        }
+        return;
+      }
       }
     }
     
@@ -480,7 +480,7 @@ export default function AdminPage() {
     
     // Если элемент находится в подкатегории
     if (parentPath.length > 0) {
-      let currentItems = category.items;
+    let currentItems = category.items;
       let currentParent: MenuItem | null = null;
       
       // Находим родительскую подкатегорию
@@ -503,7 +503,7 @@ export default function AdminPage() {
       currentItems.forEach((item, index) => {
         item.order = index;
       });
-    } else {
+      } else {
       // Элемент находится непосредственно в категории
       const itemIndex = category.items.findIndex(item => item.id === itemId);
       if (itemIndex === -1 || itemIndex >= category.items.length - 1) return; // Элемент уже последний или не найден
@@ -616,7 +616,7 @@ export default function AdminPage() {
     
     setSelectedItem({ item, categoryId, parentPath });
     
-    if (item.isSubcategory) {
+      if (item.isSubcategory) {
       setExpandedItems(prev =>
         prev.includes(item.id)
           ? prev.filter(id => id !== item.id)
@@ -665,7 +665,7 @@ export default function AdminPage() {
       // Если нет категорий, сначала создаем категорию
       setShowCategoryForm(true);
       setNewCategoryName('Новая категория');
-    } else {
+            } else {
       openCategorySelector(false);
     }
   };
@@ -700,11 +700,11 @@ export default function AdminPage() {
             Управление меню
           </h1>
           <div className="flex items-center space-x-2">
-            <Link href="/">
+          <Link href="/">
               <button className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors" title="На главную">
                 <XMarkIcon className="w-5 h-5 text-white/60" />
-              </button>
-            </Link>
+            </button>
+          </Link>
           </div>
         </div>
 
@@ -714,24 +714,24 @@ export default function AdminPage() {
               Структура меню
             </h2>
             <div className="flex flex-wrap gap-2">
-              <button
+                      <button
                 onClick={handleAddNewItem}
                 className="p-2 rounded-lg bg-[#E6B980]/20 hover:bg-[#E6B980]/30 transition-colors text-[#E6B980] hover:text-white flex items-center space-x-2"
                 title="Добавить новое блюдо"
               >
                 <PlusIcon className="w-5 h-5" />
                 <span>Добавить блюдо</span>
-              </button>
-              <button
+                      </button>
+                        <button
                 onClick={addCategory}
                 className="p-2 rounded-lg bg-white/5 hover:bg-white/10 transition-colors text-white/60 hover:text-white/90 flex items-center space-x-2"
                 title="Добавить категорию"
               >
                 <PlusIcon className="w-5 h-5" />
                 <span>Добавить категорию</span>
-              </button>
-            </div>
-          </div>
+                        </button>
+                      </div>
+                    </div>
 
           <MenuTree
             menu={menu}
@@ -757,7 +757,7 @@ export default function AdminPage() {
             searchQuery=""
             sortType="order"
           />
-        </div>
+                  </div>
       </div>
 
       {/* Основной контент */}
@@ -771,17 +771,17 @@ export default function AdminPage() {
                 {error}
               </div>
             )}
-          </div>
+            </div>
           <Link href="/">
             <button className="flex items-center space-x-2 px-4 py-2 bg-[#E6B980]/10 hover:bg-[#E6B980]/20 text-[#E6B980] rounded-lg transition-colors">
               <span>На главную</span>
             </button>
           </Link>
-        </div>
+          </div>
 
         <div className="bg-[#111111] rounded-2xl border border-white/5 p-4 md:p-6">
           {selectedItem ? (
-            <div>
+                  <div>
               <Breadcrumbs
                 items={breadcrumbs}
                 onNavigate={(index) => {
@@ -804,15 +804,15 @@ export default function AdminPage() {
                   }
                 }}
               />
-            </div>
+                  </div>
           ) : (
             <div className="h-[300px] md:h-[400px] flex items-center justify-center text-white/40">
               <div className="text-center">
                 <ArrowPathIcon className="w-10 h-10 md:w-12 md:h-12 mx-auto mb-4 opacity-40" />
                 <p>Выберите элемент для редактирования</p>
+                </div>
               </div>
-            </div>
-          )}
+            )}
         </div>
       </div>
 
@@ -849,8 +849,8 @@ export default function AdminPage() {
                 title="Закрыть"
               >
                 <XMarkIcon className="w-5 h-5 text-white/60" />
-              </button>
-            </div>
+                </button>
+              </div>
             <ItemEditForm
               item={selectedItem.item}
               onSave={(updates) => {
@@ -865,13 +865,13 @@ export default function AdminPage() {
                     setSelectedItem(null);
                     setPendingNewItem(null);
                     setBreadcrumbs([]);
-                  });
-                }
-              }}
+                              });
+                            }
+                          }}
               onCancel={cancelAddItem}
-            />
-          </div>
-        </div>
+                            />
+                          </div>
+                      </div>
       )}
 
       {/* Модальное окно выбора категории */}
@@ -882,8 +882,8 @@ export default function AdminPage() {
               <h3 className="text-lg font-medium text-white/90">
                 Выберите категорию для {pendingNewItem?.isSubcategory ? 'подкатегории' : 'блюда'}
               </h3>
-              <button
-                onClick={() => {
+                  <button
+                    onClick={() => {
                   setShowCategorySelector(false);
                   setPendingNewItem(null);
                 }}
@@ -891,7 +891,7 @@ export default function AdminPage() {
                 title="Закрыть"
               >
                 <XMarkIcon className="w-5 h-5 text-white/60" />
-              </button>
+                  </button>
             </div>
             <div className="max-h-[300px] md:max-h-[400px] overflow-y-auto space-y-2 mb-4">
               {menu.map(category => (
@@ -917,8 +917,8 @@ export default function AdminPage() {
                         .filter(item => item.isSubcategory)
                         .map(subcategory => (
                           <div key={subcategory.id}>
-                            <button
-                              onClick={() => {
+                <button
+                  onClick={() => {
                                 if (pendingNewItem) {
                                   addItem(category.id, [subcategory.id], pendingNewItem.isSubcategory);
                                   setShowCategorySelector(false);
@@ -929,7 +929,7 @@ export default function AdminPage() {
                             >
                               <span className="text-[#E6B980]/80 font-medium">{subcategory.name}</span>
                               <PlusIcon className="w-4 h-4 text-[#E6B980]/80" />
-                            </button>
+                </button>
                             
                             {/* Рекурсивно отображаем вложенные подкатегории */}
                             {subcategory.items && subcategory.items.filter(item => item.isSubcategory).length > 0 && (
@@ -952,28 +952,28 @@ export default function AdminPage() {
                                       }}
                                     />
                                   ))}
-                              </div>
-                            )}
-                          </div>
-                        ))}
+                        </div>
+                      )}
                     </div>
+                        ))}
+                      </div>
                   )}
-                </div>
+                      </div>
               ))}
-            </div>
+                      </div>
             <div className="flex justify-end">
-              <button
-                onClick={() => {
+                  <button
+                    onClick={() => {
                   setShowCategorySelector(false);
                   setPendingNewItem(null);
                 }}
                 className="px-4 py-2 bg-white/10 hover:bg-white/[0.15] text-sm text-white rounded-lg transition-colors"
-              >
-                Отмена
-              </button>
+                  >
+                    Отмена
+                  </button>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
       )}
       
       {/* Модальное окно создания новой категории */}
@@ -982,38 +982,38 @@ export default function AdminPage() {
           <div className="bg-[#111111] rounded-xl border border-white/10 p-4 md:p-6 max-w-md w-full">
             <h3 className="text-lg font-medium text-white/90 mb-4">
               Создание новой категории
-            </h3>
+              </h3>
             <div className="mb-4">
               <label className="block text-sm font-medium text-white/60 mb-2">
                 Название категории
               </label>
-              <input
-                type="text"
-                value={newCategoryName}
-                onChange={(e) => setNewCategoryName(e.target.value)}
+                <input
+                  type="text"
+                  value={newCategoryName}
+                  onChange={(e) => setNewCategoryName(e.target.value)}
                 className="w-full bg-white/[0.03] border border-white/5 rounded-lg px-4 py-2.5 text-sm text-white/90 placeholder-white/40 focus:outline-none focus:border-white/10 transition-colors"
-                autoFocus
-              />
+                  autoFocus
+                />
             </div>
             <div className="flex justify-end space-x-3">
-              <button
-                onClick={() => {
+                  <button
+                    onClick={() => {
                   setShowCategoryForm(false);
-                  setNewCategoryName('');
-                }}
+                      setNewCategoryName('');
+                    }}
                 className="px-4 py-2 text-sm text-white/60 hover:text-white transition-colors"
-              >
-                Отмена
-              </button>
-              <button
+                  >
+                    Отмена
+                  </button>
+                <button
                 onClick={() => createCategory(newCategoryName)}
                 className="px-4 py-2 bg-white/10 hover:bg-white/[0.15] text-sm text-white rounded-lg transition-colors"
                 disabled={!newCategoryName.trim()}
               >
                 Создать
-              </button>
-            </div>
-          </div>
+                </button>
+              </div>
+                </div>
         </div>
       )}
       
@@ -1027,35 +1027,35 @@ export default function AdminPage() {
             <div className="mb-4">
               <label className="block text-sm font-medium text-white/60 mb-2">
                 Название категории
-              </label>
-              <input
-                type="text"
+                  </label>
+                  <input
+                    type="text"
                 value={editingCategoryName}
                 onChange={(e) => setEditingCategoryName(e.target.value)}
                 className="w-full bg-white/[0.03] border border-white/5 rounded-lg px-4 py-2.5 text-sm text-white/90 placeholder-white/40 focus:outline-none focus:border-white/10 transition-colors"
-                autoFocus
-              />
-            </div>
+                    autoFocus
+                  />
+                </div>
             <div className="flex justify-end space-x-3">
-              <button
-                onClick={() => {
+                  <button
+                    onClick={() => {
                   setEditingCategoryId(null);
                   setEditingCategoryName('');
-                }}
+                    }}
                 className="px-4 py-2 text-sm text-white/60 hover:text-white transition-colors"
-              >
-                Отмена
-              </button>
-              <button
+                  >
+                    Отмена
+                  </button>
+                  <button
                 onClick={() => updateCategory(editingCategoryId, { name: editingCategoryName })}
                 className="px-4 py-2 bg-white/10 hover:bg-white/[0.15] text-sm text-white rounded-lg transition-colors"
                 disabled={!editingCategoryName.trim()}
               >
                 Сохранить
-              </button>
+                  </button>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
       )}
     </div>
   );
@@ -1079,13 +1079,13 @@ const RenderNestedSubcategories = ({
   
   return (
     <div>
-      <button
+                  <button
         onClick={() => onSelect(currentPath)}
         className="w-full text-left p-2 rounded-lg bg-[#0a0a0a] border border-[#E6B980]/20 hover:bg-[#151515] transition-colors flex items-center justify-between"
-      >
+                  >
         <span className="text-[#E6B980]/70 font-medium">{subcategory.name}</span>
         <PlusIcon className="w-4 h-4 text-[#E6B980]/70" />
-      </button>
+                  </button>
       
       {subcategory.items && subcategory.items.filter(item => item.isSubcategory).length > 0 && (
         <div className="pl-4 space-y-1 mt-1 border-l border-[#E6B980]/20 ml-2">
@@ -1101,7 +1101,7 @@ const RenderNestedSubcategories = ({
                 onSelect={onSelect}
               />
             ))}
-        </div>
+                </div>
       )}
     </div>
   );
