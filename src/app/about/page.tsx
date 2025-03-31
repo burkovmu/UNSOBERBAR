@@ -142,7 +142,7 @@ export default function About() {
             className="text-center mb-20"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-light tracking-[0.2em] text-white mb-6">
-              REST BAR
+              UNSOBER BAR
             </h1>
             <div className="h-[1px] w-32 mx-auto bg-gradient-to-r from-transparent via-[#E6B980] to-transparent mb-6" />
             <p className="text-white/60 text-sm md:text-base font-light tracking-[0.2em] uppercase">
@@ -174,8 +174,9 @@ export default function About() {
                     Наша История
                   </h2>
                   <p className="text-white/80 font-light leading-relaxed">
-                    Rest Bar был основан в 2020 году с целью создать уникальное пространство, 
-                    где современная гастрономия встречается с традиционными рецептами. 
+                    UNSOBER BAR был основан в 2020 году с целью создать уникальное пространство, 
+                    где кулинарные традиции встречаются с инновациями, а каждый гость может
+                    насладиться изысканной кухней и неповторимой атмосферой. 
                     Мы стремимся предложить нашим гостям не просто еду, а настоящее 
                     гастрономическое путешествие.
                   </p>
@@ -285,16 +286,14 @@ export default function About() {
                   <div className="space-y-2">
                     <p className="text-[#E6B980]/60 text-sm">Часы работы</p>
                     <p className="text-white/80 font-light">
-                      Пн-Чт: 12:00 - 02:00<br />
-                      Пт: 12:00 - 04:00<br />
-                      Сб: 15:00 - 04:00<br />
-                      Вс: 15:00 - 02:00
+                      Вс-Чт: 12:00 - 02:00<br />
+                      Пт-Сб: 12:00 - 04:00
                     </p>
                   </div>
                   <div className="space-y-2">
                     <p className="text-[#E6B980]/60 text-sm">Контакты</p>
                     <p className="text-white/80 font-light">
-                      +7 999 123-45-67<br />
+                      +7 993 907-30-77<br />
                     </p>
                   </div>
                 </div>

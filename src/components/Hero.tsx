@@ -23,10 +23,10 @@ export default function Hero({ onBookingClick }: HeroProps) {
           transition={{ duration: 1 }}
           className="mb-20"
         >
-          <h1 className="text-6xl sm:text-8xl lg:text-[12rem] font-light text-white mb-6 break-words">
-            <span className="inline-block mr-2 sm:mr-6 opacity-90">Rest</span>
-            <span className="inline-block bg-gradient-to-r from-[#E6B980] to-[#D4A56A] text-transparent bg-clip-text relative">
-              Bar
+          <h1 className="text-6xl sm:text-7xl lg:text-9xl font-light text-white mb-6 flex flex-wrap md:flex-nowrap justify-center items-center">
+            <span className="inline-block mr-2 sm:mr-4 opacity-90 font-romul">UNSOBER</span>
+            <span className="inline-block bg-gradient-to-r from-[#E6B980] to-[#D4A56A] text-transparent bg-clip-text relative font-romul">
+              BAR
               <div className="absolute -inset-4 bg-gradient-to-r from-[#E6B980]/0 via-[#E6B980]/5 to-[#E6B980]/0 blur-2xl" />
             </span>
           </h1>
@@ -78,8 +78,8 @@ export default function Hero({ onBookingClick }: HeroProps) {
               whileHover={{ scale: 1.01 }}
               className="w-full max-w-[24rem] px-4 sm:px-8 py-3 rounded-2xl border border-white/5 bg-white/[0.02] backdrop-blur-sm flex items-center justify-center"
             >
-              <a href="tel:+79991234567" className="text-white/90 text-sm tracking-[0.2em] font-light hover:text-[#E6B980] transition-colors">
-                +7 999 123-45-67
+              <a href="tel:+79939073077" className="text-white/90 text-sm tracking-[0.2em] font-light hover:text-[#E6B980] transition-colors">
+                +7 993 907-30-77
               </a>
             </motion.div>
 
@@ -88,20 +88,12 @@ export default function Hero({ onBookingClick }: HeroProps) {
               className="w-full max-w-[24rem] px-4 sm:px-8 py-3 rounded-2xl border border-white/5 bg-white/[0.02] backdrop-blur-sm flex flex-col items-center justify-center space-y-1"
             >
               <div className="flex items-center space-x-2">
-                <span className="text-[#E6B980] text-sm tracking-[0.2em] font-light">Пн-Чт:</span>
+                <span className="text-[#E6B980] text-sm tracking-[0.2em] font-light">Вс-Чт:</span>
                 <span className="text-white/90 text-sm tracking-[0.2em] font-light">12:00 - 02:00</span>
               </div>
               <div className="flex items-center space-x-2">
-                <span className="text-[#E6B980] text-sm tracking-[0.2em] font-light">Пт:</span>
+                <span className="text-[#E6B980] text-sm tracking-[0.2em] font-light">Пт-Сб:</span>
                 <span className="text-white/90 text-sm tracking-[0.2em] font-light">12:00 - 04:00</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span className="text-[#E6B980] text-sm tracking-[0.2em] font-light">Сб:</span>
-                <span className="text-white/90 text-sm tracking-[0.2em] font-light">15:00 - 04:00</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span className="text-[#E6B980] text-sm tracking-[0.2em] font-light">Вс:</span>
-                <span className="text-white/90 text-sm tracking-[0.2em] font-light">15:00 - 02:00</span>
               </div>
             </motion.div>
 

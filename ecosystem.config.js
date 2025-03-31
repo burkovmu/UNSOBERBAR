@@ -1,16 +1,15 @@
 module.exports = {
   apps: [
     {
-      name: 'restbar',
-      script: 'npm',
+      name: 'unsoberbar',
+      script: 'node_modules/next/dist/bin/next',
       args: 'start',
-      watch: true,
+      watch: false,
+      autorestart: true,
       env: {
+        PORT: 3000,
         NODE_ENV: 'production',
-        PORT: 3000
       },
-      exp_backoff_restart_delay: 100,
-      max_restarts: 10
-    }
-  ]
+    },
+  ],
 }; 
